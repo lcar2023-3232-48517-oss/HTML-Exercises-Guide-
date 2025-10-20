@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <style> 
+    .modal { 
+      display: none; 
+      position: fixed; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
+      background: white; 
+      padding: 20px; 
+      border: 1px solid black; 
+    } 
+    .modal.show { 
+      display: block; 
+    } 
+  </style> 
+</head> 
+<body> 
+  <button onclick="document.getElementById('myModal').classList.add('show')">Open Modal</button> 
+  <div id="myModal" class="modal"> 
+    <p>Hi, mahal ka ni Lord.</p> 
+  </div> 
+</body> 
+</html>
